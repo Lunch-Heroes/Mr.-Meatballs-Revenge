@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8AF32771CA9DF5D004367E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF32761CA9DF5D004367E9 /* AppDelegate.swift */; };
+		D8AF32791CA9DF5D004367E9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AF32781CA9DF5D004367E9 /* art.scnassets */; };
+		D8AF327B1CA9DF5D004367E9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF327A1CA9DF5D004367E9 /* GameViewController.swift */; };
+		D8AF327E1CA9DF5D004367E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AF327C1CA9DF5D004367E9 /* Main.storyboard */; };
+		D8AF32801CA9DF5D004367E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AF327F1CA9DF5D004367E9 /* Assets.xcassets */; };
+		D8AF32831CA9DF5D004367E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AF32811CA9DF5D004367E9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8AF32731CA9DF5D004367E9 /* Mr. Meatballs Revenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mr. Meatballs Revenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AF32761CA9DF5D004367E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8AF32781CA9DF5D004367E9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		D8AF327A1CA9DF5D004367E9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D8AF327D1CA9DF5D004367E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8AF327F1CA9DF5D004367E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8AF32821CA9DF5D004367E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8AF32841CA9DF5D004367E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8AF32701CA9DF5D004367E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8AF326A1CA9DF5D004367E9 = {
+			isa = PBXGroup;
+			children = (
+				D8AF32751CA9DF5D004367E9 /* Mr. Meatballs Revenge */,
+				D8AF32741CA9DF5D004367E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8AF32741CA9DF5D004367E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8AF32731CA9DF5D004367E9 /* Mr. Meatballs Revenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8AF32751CA9DF5D004367E9 /* Mr. Meatballs Revenge */ = {
+			isa = PBXGroup;
+			children = (
+				D8AF32761CA9DF5D004367E9 /* AppDelegate.swift */,
+				D8AF32781CA9DF5D004367E9 /* art.scnassets */,
+				D8AF327A1CA9DF5D004367E9 /* GameViewController.swift */,
+				D8AF327C1CA9DF5D004367E9 /* Main.storyboard */,
+				D8AF327F1CA9DF5D004367E9 /* Assets.xcassets */,
+				D8AF32811CA9DF5D004367E9 /* LaunchScreen.storyboard */,
+				D8AF32841CA9DF5D004367E9 /* Info.plist */,
+			);
+			path = "Mr. Meatballs Revenge";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8AF32721CA9DF5D004367E9 /* Mr. Meatballs Revenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8AF32871CA9DF5D004367E9 /* Build configuration list for PBXNativeTarget "Mr. Meatballs Revenge" */;
+			buildPhases = (
+				D8AF326F1CA9DF5D004367E9 /* Sources */,
+				D8AF32701CA9DF5D004367E9 /* Frameworks */,
+				D8AF32711CA9DF5D004367E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mr. Meatballs Revenge";
+			productName = "Mr. Meatballs Revenge";
+			productReference = D8AF32731CA9DF5D004367E9 /* Mr. Meatballs Revenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8AF326B1CA9DF5D004367E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lunch Heros";
+				TargetAttributes = {
+					D8AF32721CA9DF5D004367E9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D8AF326E1CA9DF5D004367E9 /* Build configuration list for PBXProject "Mr. Meatballs Revenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8AF326A1CA9DF5D004367E9;
+			productRefGroup = D8AF32741CA9DF5D004367E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8AF32721CA9DF5D004367E9 /* Mr. Meatballs Revenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8AF32711CA9DF5D004367E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AF32791CA9DF5D004367E9 /* art.scnassets in Resources */,
+				D8AF32831CA9DF5D004367E9 /* LaunchScreen.storyboard in Resources */,
+				D8AF32801CA9DF5D004367E9 /* Assets.xcassets in Resources */,
+				D8AF327E1CA9DF5D004367E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8AF326F1CA9DF5D004367E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AF327B1CA9DF5D004367E9 /* GameViewController.swift in Sources */,
+				D8AF32771CA9DF5D004367E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8AF327C1CA9DF5D004367E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8AF327D1CA9DF5D004367E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8AF32811CA9DF5D004367E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8AF32821CA9DF5D004367E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8AF32851CA9DF5D004367E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8AF32861CA9DF5D004367E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8AF32881CA9DF5D004367E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mr. Meatballs Revenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LunchHeros.Mr--Meatballs-Revenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8AF32891CA9DF5D004367E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mr. Meatballs Revenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LunchHeros.Mr--Meatballs-Revenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8AF326E1CA9DF5D004367E9 /* Build configuration list for PBXProject "Mr. Meatballs Revenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8AF32851CA9DF5D004367E9 /* Debug */,
+				D8AF32861CA9DF5D004367E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8AF32871CA9DF5D004367E9 /* Build configuration list for PBXNativeTarget "Mr. Meatballs Revenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8AF32881CA9DF5D004367E9 /* Debug */,
+				D8AF32891CA9DF5D004367E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8AF326B1CA9DF5D004367E9 /* Project object */;
+}
